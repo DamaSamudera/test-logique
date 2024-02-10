@@ -1,0 +1,88 @@
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 4.5rem;
+  justify-content: space-between;
+}
+
+.btn-load {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.search-drawer {
+  background-color: transparent !important;
+}
+
+.drawer-content {
+  width: 25vw;
+  margin: 20vh auto;
+}
+
+.drawer-content > input {
+  border-radius: 1.25rem;
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.drawer-content > button {
+  border-radius: 1.25rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.loadmore-list {
+  height: 55vh !important;
+  overflow: auto;
+}
+
+button.ant-drawer-close {
+  color: white !important;
+  position: absolute;
+  top: 1.25rem;
+  right: 1.875rem;
+}
+
+.result-header {
+  height: 3.75rem;
+  box-shadow: 0 0 6px 0 rgba(148, 77, 230, 0.75);
+  background-image: linear-gradient(100deg, #712bda, #a45deb 100%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.search-result {
+  display: flex;
+}
+
+.search-result > p:first-child {
+  margin-top: 0;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.text-result {
+  color: #7b34dd;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-price > span > svg {
+  height: 0.875rem;
+  width: 0.875rem;
+  margin-right: 0.25rem;
+}
+
+.text-price {
+  color: #f5b014;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
